@@ -1,0 +1,493 @@
+/*Stefan Dishliovski - 231038*/
+
+body{
+    font-family: Arial, sans-serif;
+    background: #295058;
+}
+
+/*Navigacija*/
+.navigation ul {
+    float: right;
+}
+
+
+.navigation img {
+    margin-left: 100px;
+    width: 350px;
+}
+
+body > nav.navigation > ul > li> a{
+    font-size: 15px;
+}
+.navigation ul li a:hover{
+    font-weight: bolder;
+    color: white;
+    transition: 1s;
+}
+
+nav.navigationFooter > ul > li > a {
+    font-size: 15px;
+
+}
+
+.navigation li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    margin: 10px 40px 10px 20px;
+}
+
+
+body > div.homeSection1 > div.homeSection1Div2 > img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+/*Body Home*/
+
+.homeSection1 {
+    /*background: #c0e716;*/
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #D8E1E3;
+}
+
+.homeSection2 {
+    background: #D8E1E3;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.homeSection2 img {
+    height: 170px;
+    width: 220px;
+    border-radius: 15px;
+}
+
+.homeSection2Div1 {
+    display: flex;
+    align-items: center;
+    margin: 10px 80px 0px 80px;
+}
+
+.homeSection2Div1 p {
+    margin-left: 20px;
+    text-align: justify;
+}
+
+.homeSection2Div2 {
+    display: flex;
+    align-items: center;
+
+    margin: 10px 80px 0px 80px;
+
+}
+
+.homeSection2Div2 p{
+    text-align: justify;
+    margin-right: 20px;
+}
+
+/*About Me*/
+.sredina{
+    display: flex;
+    justify-content: center;
+}
+
+.aboutSection1Div1{
+    text-align: center;
+    font-size: 40px;
+    color: #D8E1E3;
+
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.aboutSection2{
+    background: #D8E1E3;
+    width: 80%;
+    border: 3px black solid;
+    border-radius: 5px;
+
+    display: flex;
+    align-content: center;
+}
+
+.aboutSection2DivInner{
+    display: flex;
+    justify-content: center;
+
+    padding: 30px;
+}
+.aboutSection2DivInner > img{
+    border-radius: 60px;
+}
+
+
+.aboutSection2DivInner > p{
+    text-indent: 30px;
+    text-align: justify;
+    padding: 20px;
+}
+
+
+.hobbies1{
+    text-align: center;
+    color: #D8E1E3;
+
+    font-size: 40px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.hobbiesInner{
+    display: flex;
+    justify-content: center;
+}
+
+.hobbiesTemplate{
+    width: 450px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background: #D8E1E3;
+    margin-right: 10px;
+    padding: 10px;
+
+}
+
+.hobbiesTemplate > h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+.hobbiesTemplate > p{
+    text-align: justify;
+    width: 440px;
+}
+
+.hobbiesTemplate img{
+    width: 400px;
+    height: 250px;
+    margin: auto;
+}
+
+
+.aboutSection3Div1{
+    text-align: center;
+    font-size: 40px;
+    color: #D8E1E3;
+
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.aboutSection3Div2{
+    display: flex;
+    justify-content: center;
+}
+
+.aboutSection3Div3{
+    width: 450px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background: #D8E1E3;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.aboutSection3Div5{
+    width: 450px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background: #D8E1E3;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.aboutSection3Div3 > h2{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.aboutSection3Div5 > h2{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.aboutSection3Div4{
+    width: 450px;
+    background: #D8E1E3;
+    margin-left: 10px;
+    padding: 10px;
+
+    border: 3px solid black;
+    border-radius: 20px;
+
+}
+
+.aboutSection3Div4 > h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+body > div.sredina > div > div.aboutSection2Div1 > p{
+    font-size: 30px;
+    width: 900px;
+    text-indent: 50px;
+
+}
+
+/*Contact*/
+
+.contactSection1Div1{
+    color: #D8E1E3;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.contactSection2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.contactSection2Div1{
+    width: 350px;
+    height: 500px;
+    background: #D8E1E3;
+    border: 2px black solid;
+    display: grid;
+    align-content: center;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.contactSection2Div1 > img{
+    margin: auto;
+}
+
+
+.contactSection2Div1 > h2{
+    text-align: center;
+}
+
+.contactSection2Div1 > h3{
+    text-align: center;
+}
+
+.contactSection2Div1 a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.contactSection3 {
+    display: flex;
+    justify-content: center;
+}
+
+#fname{
+    width: 500px;
+    height: 50px;
+}
+
+
+#lname{
+    width: 500px;
+    height: 50px;
+}
+
+.contactSection3  h1{
+    text-align: center;
+    color: #D8E1E3;
+
+    font-size: 40px;
+}
+
+#button{
+    width: 100px;
+    height: 30px;
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+}
+
+#sname{
+    width: 500px;
+    height: 50px;
+}
+
+/*Education*/
+
+.naslov{
+    text-align: center;
+    font-size: 40px;
+    color: #D8E1E3;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.educationDiv1{
+    display: grid;
+    align-content: center;
+}
+
+.education{
+    width: 80%;
+    height: 250px;
+    border: 2px solid black;
+    margin: 10px;
+    background: #D8E1E3;
+    margin-left: 150px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slika{
+    width: 400px;
+    height: 250px;
+    margin-right: 50px;
+}
+
+
+.courses{
+    display: flex;
+    justify-content: center;
+}
+
+.coursesTemplate{
+    width: 450px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background: #D8E1E3;
+    margin-right: 10px;
+    padding: 10px;
+
+}
+
+
+/*Gallery*/
+.galleryDivImg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galleryDivImg img{
+    padding: 20px;
+    width: 500px;
+    height: 400px;
+}
+
+
+
+.sliki{
+    display: flex;
+    justify-content:center;
+    padding: 55px;
+}
+.sliki div img{
+    height: 300px;
+    width: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 4px;
+}
+.sliki .travel{
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding-bottom: 20px;
+    width: 330px;
+
+}
+
+.sliki .travel p{
+    padding: 5px;
+}
+.sliki .travel h3{
+    padding: 5px;
+}
+
+.sliki .travel a img:hover{
+    height: 400px;
+    width: 300px;
+    transition: 0.5s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+.navigationFooter ul {
+    float: right;
+}
+
+.navigationFooter li {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.navigationFooter a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    margin: 10px 40px 10px 20px;
+}
+
+.navigationFooter a:last-child {
+    margin-right: 50px;
+}
+
+.navigationFooter p {
+    margin-left: 70px;
+    float: left;
+    color: #D8E1E3;
+}
+
+.sredina .aboutSection2 .aboutSection2Div1{
+    display: flex;
+    flex-direction: row;
+}
+.aboutSection2 {
+    display: flex;
+    background: #D8E1E3;
+
+    flex-direction: column;
+}
+.navigationFooter ul li a:hover{
+    font-weight: bolder;
+    color: white;
+    transition: 1s;
+}
+
+
+
+
