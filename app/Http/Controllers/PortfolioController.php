@@ -33,13 +33,13 @@ class PortfolioController extends Controller
             ],
             [
                 'number' => '03',
-                'name' => 'GraphRAG for Macedonian Legislation',
+                'name' => 'Legal Question Answering over Macedonian Legislation',
                 'image' => 'legal-graphrag.svg',
                 'image_alt' => 'Illustration of legal scales and a cited document.',
                 'category' => 'Applied AI · Full-stack engineering',
                 'description' => 'A question-answering application over Macedonian legislation, designed to surface cited statutory provisions first and keep generated summaries clearly subordinate to the source material.',
                 'stack' => ['Laravel', 'PHP', 'PostgreSQL', 'RAG'],
-                'url' => 'https://github.com/St3faNNN/graphrag-app',
+                'url' => 'https://github.com/St3faNNN/Legal-Question-Answering',
                 'link_label' => 'View repository',
             ],
             [
