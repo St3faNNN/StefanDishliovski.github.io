@@ -39,6 +39,8 @@ class PortfolioController extends Controller
             [
                 'number' => '04',
                 'name' => 'Personality Trait Representations in LLMs',
+                'image' => 'personality-llm.svg',
+                'image_alt' => 'Illustration of an interconnected language model representation graph.',
                 'category' => 'Research · Mechanistic interpretability',
                 'description' => 'An investigation of persona conditioning and trait-grounded representations in language models, comparing prompt-based steering with directions derived from Big Five trait descriptions.',
                 'stack' => ['LLMs', 'Representation analysis', 'Experimental design'],
