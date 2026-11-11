@@ -6,7 +6,7 @@
 <header class="site-header" id="top">
     <div class="container nav-shell">
         <a class="wordmark" href="#top" aria-label="Stefan Dishliovski, home">
-            <span class="wordmark-mark">SD</span>
+            <img class="wordmark-avatar" src="{{ asset('images/profile-avatar.svg') }}" alt="">
             <span>Stefan Dishliovski</span>
         </a>
 
