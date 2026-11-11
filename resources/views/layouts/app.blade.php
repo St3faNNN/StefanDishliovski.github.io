@@ -3,7 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f6f5f1">
+    <meta name="theme-color" content="#07182b">
+    <link rel="icon" type="image/svg+xml" href="{{ asset('images/profile-avatar.svg') }}">
+    <link rel="shortcut icon" href="{{ asset('images/profile-avatar.svg') }}">
     <meta name="description" content="Stefan Dishliovski — software engineering, artificial intelligence, machine learning and research.">
     <meta property="og:title" content="Stefan Dishliovski — Portfolio">
     <meta property="og:description" content="Software engineering, artificial intelligence and research.">
