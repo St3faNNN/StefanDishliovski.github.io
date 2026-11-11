@@ -12,6 +12,8 @@ class PortfolioController extends Controller
             [
                 'number' => '01',
                 'name' => 'Macedonian Sign Language Recognition',
+                'image' => 'sign-language.svg',
+                'image_alt' => 'Illustration of a hand gesture and computer vision network.',
                 'category' => 'Computer vision · Deep learning',
                 'description' => 'A computer-vision pipeline for classifying 26 static letters of the Macedonian manual alphabet, with CNN experiments, MediaPipe hand-region processing and Grad-CAM visualisations.',
                 'stack' => ['PyTorch', 'MediaPipe', 'CNNs', 'Grad-CAM'],
@@ -21,6 +23,8 @@ class PortfolioController extends Controller
             [
                 'number' => '02',
                 'name' => 'GraphRAG Jeopardy Evaluation',
+                'image' => 'jeopardy-graphrag.svg',
+                'image_alt' => 'Illustration of a connected knowledge graph.',
                 'category' => 'Information retrieval · NLP',
                 'description' => 'An experimental comparison of dense-retrieval RAG approaches and knowledge-graph-based retrieval for generating Jeopardy-style clues, including the effect of coreference resolution.',
                 'stack' => ['Python', 'Neo4j', 'NLP', 'RAG evaluation'],
@@ -30,6 +34,8 @@ class PortfolioController extends Controller
             [
                 'number' => '03',
                 'name' => 'GraphRAG for Macedonian Legislation',
+                'image' => 'legal-graphrag.svg',
+                'image_alt' => 'Illustration of legal scales and a cited document.',
                 'category' => 'Applied AI · Full-stack engineering',
                 'description' => 'A question-answering application over Macedonian legislation, designed to surface cited statutory provisions first and keep generated summaries clearly subordinate to the source material.',
                 'stack' => ['Laravel', 'PHP', 'PostgreSQL', 'RAG'],
