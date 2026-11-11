@@ -41,9 +41,26 @@
             </div>
 
             <aside class="hero-aside" aria-label="Profile summary">
-                <div class="portrait-frame">
-                    <div class="portrait-monogram">SD</div>
-                    <span class="portrait-index">PROFILE / 2026</span>
+                <div class="portrait-frame graph-frame" role="img" aria-label="Academic and research knowledge graph, with TU Wien as a highlighted vertex">
+                    <svg class="hero-graph" viewBox="0 0 420 440" aria-hidden="true">
+                        <g class="graph-links">
+                            <path d="M210 92 L92 174 L112 318 L210 362 L324 294 L330 158 Z"/>
+                            <path d="M92 174 L210 224 L330 158 M112 318 L210 224 L324 294 M210 92 L210 224 L210 362"/>
+                            <path d="M210 92 L330 158 L324 294 L210 362 L112 318 L92 174 Z"/>
+                        </g>
+                        <g class="graph-orbits">
+                            <circle cx="210" cy="224" r="132"/>
+                            <circle cx="210" cy="224" r="166"/>
+                        </g>
+                        <g class="graph-node node-finki"><circle cx="92" cy="174" r="8"/><text x="92" y="151">FINKI</text></g>
+                        <g class="graph-node node-research"><circle cx="112" cy="318" r="7"/><text x="112" y="344">RESEARCH</text></g>
+                        <g class="graph-node node-ml"><circle cx="210" cy="92" r="7"/><text x="210" y="67">AI / ML</text></g>
+                        <g class="graph-node node-projects"><circle cx="330" cy="158" r="7"/><text x="330" y="135">PROJECTS</text></g>
+                        <g class="graph-node node-data"><circle cx="324" cy="294" r="7"/><text x="324" y="320">NLP</text></g>
+                        <g class="graph-node node-base"><circle cx="210" cy="362" r="7"/><text x="210" y="390">SKOPJE</text></g>
+                        <g class="graph-node node-tu"><circle cx="210" cy="224" r="14"/><text x="210" y="230" class="tu-label">TU WIEN</text></g>
+                    </svg>
+                    <span class="portrait-index">ACADEMIC NETWORK / 2026</span>
                 </div>
                 <div class="hero-note">
                     <span class="note-label">CURRENTLY</span>
