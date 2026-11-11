@@ -41,32 +41,9 @@
             </div>
 
             <aside class="hero-aside" aria-label="Profile summary">
-                <div class="portrait-frame graph-frame" role="img" aria-label="Academic and research knowledge graph, with TU Wien as a highlighted vertex">
-                    <svg class="hero-graph campus-graph" viewBox="0 0 620 600" aria-hidden="true">
- <g class="campus-links">
-  <path d="M70 170 L105 125 L145 170 L185 125 L225 170 L265 125 L300 170 L335 125 L375 170 L415 125 L455 170 L495 125 L535 170"/>
-  <path d="M70 170 L70 230 L145 230 L145 170 M185 125 L185 230 L265 230 L265 125 M335 125 L335 230 L415 230 L415 125 M455 170 L455 230 L535 230 L535 170"/>
-  <path d="M70 170 L105 275 L185 275 L225 230 M265 230 L300 275 L375 275 L415 230 M455 230 L495 275 L535 230"/>
-  <path d="M85 330 L135 300 L185 330 L235 300 L285 330 M85 330 L85 395 L185 395 L185 330 M235 300 L235 395 L335 395 L335 330 M385 300 L435 330 L485 300 L535 330 M385 300 L385 395 L485 395 L485 300"/>
-  <path d="M135 300 L135 260 L185 230 M435 330 L435 275 L495 275 M285 330 L310 275"/>
-  <path d="M110 445 L160 420 L210 445 L260 420 L310 445 L360 420 L410 445 L460 420 L510 445"/>
-  <path d="M110 445 L110 495 L210 495 L210 445 M260 420 L260 495 L360 495 L360 420 M410 445 L410 495 L510 495 L510 445"/>
-  <path d="M210 495 L260 530 L360 530 L410 495"/>
- </g>
- <g class="campus-dots">
-  <circle cx="70" cy="170" r="4"/><circle cx="105" cy="125" r="4"/><circle cx="145" cy="170" r="4"/><circle cx="185" cy="125" r="4"/><circle cx="225" cy="170" r="4"/><circle cx="265" cy="125" r="4"/><circle cx="300" cy="170" r="4"/><circle cx="335" cy="125" r="4"/><circle cx="375" cy="170" r="4"/><circle cx="415" cy="125" r="4"/><circle cx="455" cy="170" r="4"/><circle cx="495" cy="125" r="4"/><circle cx="535" cy="170" r="4"/>
-  <circle cx="70" cy="230" r="3"/><circle cx="145" cy="230" r="3"/><circle cx="185" cy="230" r="3"/><circle cx="265" cy="230" r="3"/><circle cx="335" cy="230" r="3"/><circle cx="415" cy="230" r="3"/><circle cx="455" cy="230" r="3"/><circle cx="535" cy="230" r="3"/>
-  <circle cx="105" cy="275" r="3"/><circle cx="185" cy="275" r="3"/><circle cx="300" cy="275" r="3"/><circle cx="375" cy="275" r="3"/><circle cx="495" cy="275" r="3"/>
-  <circle cx="85" cy="330" r="4"/><circle cx="135" cy="300" r="4"/><circle cx="185" cy="330" r="4"/><circle cx="235" cy="300" r="4"/><circle cx="285" cy="330" r="4"/><circle cx="385" cy="300" r="4"/><circle cx="435" cy="330" r="4"/><circle cx="485" cy="300" r="4"/><circle cx="535" cy="330" r="4"/>
-  <circle cx="85" cy="395" r="3"/><circle cx="185" cy="395" r="3"/><circle cx="235" cy="395" r="3"/><circle cx="335" cy="395" r="3"/><circle cx="385" cy="395" r="3"/><circle cx="485" cy="395" r="3"/>
-  <circle cx="110" cy="445" r="4"/><circle cx="160" cy="420" r="4"/><circle cx="210" cy="445" r="4"/><circle cx="260" cy="420" r="4"/><circle cx="310" cy="445" r="4"/><circle cx="360" cy="420" r="4"/><circle cx="410" cy="445" r="4"/><circle cx="460" cy="420" r="4"/><circle cx="510" cy="445" r="4"/>
-  <circle cx="110" cy="495" r="3"/><circle cx="210" cy="495" r="3"/><circle cx="260" cy="495" r="3"/><circle cx="360" cy="495" r="3"/><circle cx="410" cy="495" r="3"/><circle cx="510" cy="495" r="3"/>
-  <circle cx="260" cy="530" r="3"/><circle cx="360" cy="530" r="3"/>
- </g>
- <g class="campus-labels"><text x="175" y="80">SS. CYRIL AND METHODIUS</text><text x="175" y="96">UNIVERSITY · SKOPJE</text><text x="445" y="565">TU WIEN · VIENNA</text></g>
- <g class="campus-mark"><circle cx="310" cy="275" r="8"/><circle cx="310" cy="275" r="17"/></g>
-</svg>
-                    <span class="portrait-index">ACADEMIC NETWORK / 2026</span>
+                <div class="portrait-frame graph-frame hero-image-frame">
+                    <img class="hero-campus-image" src="{{ asset('images/campus-network.png') }}" alt="A golden knowledge graph connecting Ss. Cyril and Methodius University in Skopje with TU Wien in Vienna">
+                    <span class="portrait-index">TWO CAMPUSES · ONE ACADEMIC NETWORK / 2026</span>
                 </div>
                 <div class="hero-note">
                     <span class="note-label">CURRENTLY</span>
