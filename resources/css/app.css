@@ -55,6 +55,18 @@ h1 em, h2 em { color: var(--accent-dark); font-family: var(--serif); font-weight
 .portrait-frame { position: relative; display: grid; place-items: center; aspect-ratio: .88; background: #e6e7dd; border: 1px solid #d4d6c8; overflow: hidden; }
 .portrait-frame::before, .portrait-frame::after { content: ""; position: absolute; border: 1px solid rgba(89,99,71,.22); border-radius: 50%; width: 76%; aspect-ratio: 1; }
 .portrait-frame::after { width: 54%; }
+
+.graph-frame { background: #e7e9df; }
+.graph-frame::before, .graph-frame::after { display: none; }
+.hero-graph { position: absolute; inset: 5% 4% 8%; width: 92%; height: 87%; overflow: visible; }
+.graph-links { fill: none; stroke: rgba(89,99,71,.45); stroke-width: 1.4; }
+.graph-links path { stroke-dasharray: 5 5; }
+.graph-orbits { fill: none; stroke: rgba(89,99,71,.18); stroke-width: 1; }
+.graph-node circle { fill: #e7e9df; stroke: #647052; stroke-width: 1.5; }
+.graph-node text { fill: #69735b; font-family: var(--mono); font-size: 9px; letter-spacing: 1.2px; text-anchor: middle; }
+.graph-node.node-tu circle { fill: #596347; stroke: #f1e8d2; stroke-width: 3; }
+.graph-node .tu-label { fill: #fff8e8; font-size: 10px; font-weight: 500; letter-spacing: 1.1px; }
+
 .portrait-monogram { position: relative; z-index: 1; color: var(--accent-dark); font-family: var(--serif); font-size: clamp(76px, 9vw, 118px); letter-spacing: -.12em; padding-right: .12em; }
 .portrait-index { position: absolute; bottom: 17px; left: 18px; color: #777d68; font-size: 8px; }
 .hero-note { display: grid; grid-template-columns: 78px 1fr; gap: 10px; padding-top: 18px; }
