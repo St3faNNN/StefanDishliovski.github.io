@@ -19,11 +19,13 @@
 
     @yield('content')
 
+    <button class="back-to-top" type="button" aria-label="Back to top" title="Back to top">↑</button>
+
     <footer class="site-footer">
         <div class="container footer-inner">
             <span>© {{ date('Y') }} Stefan Dishliovski</span>
             <span>Designed and built with Laravel</span>
-            <a href="#top">Back to top ↑</a>
+            <a href="#top" class="footer-top-link">Back to top ↑</a>
         </div>
     </footer>
 </body>
