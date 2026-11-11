@@ -210,3 +210,87 @@ h1 em, h2 em { color: var(--accent-dark); font-family: var(--serif); font-weight
 .campus-labels text:nth-child(3) { text-anchor:end; fill:#d8bd8a; font-size:9px; }
 .campus-mark { fill:#f1d39a; stroke:#f1d39a; stroke-width:1; }
 .portrait-index { color:#d8bd8a !important; }
+
+
+/* Deep navy / warm gold visual system */
+:root {
+    color-scheme: dark;
+    --paper: #07182b;
+    --paper-deep: #0b2036;
+    --ink: #edf0f3;
+    --muted: #a3b0bf;
+    --line: rgba(169,190,209,.2);
+    --accent: #d9a441;
+    --accent-dark: #e5b75e;
+}
+body { background:var(--paper); color:var(--ink); }
+::selection { background:#d59b2d; color:#07182b; }
+.site-header { background:rgba(5,20,37,.92); border-bottom-color:rgba(169,190,209,.17); }
+.wordmark-mark { border-color:#d9a441; color:#f1cf8a; }
+.primary-nav a { color:#b6c2ce; }
+.primary-nav a:hover,.primary-nav a:focus-visible { color:#f0c36c; }
+.primary-nav .nav-contact { color:#f2f3f5; border-color:rgba(217,164,65,.55); }
+.menu-toggle span { background:#e8edf2; }
+.hero { padding-top:90px; }
+.eyebrow { color:#b6c3d0; }
+.eyebrow-line { background:#d9a441; }
+h1 em,h2 em { color:#e4b45d; }
+.hero-intro { color:#b2bfcc; }
+.button-dark { background:#d9a441; color:#081a2d; }
+.button-dark:hover { background:#f0c36c; }
+.text-link,.contact-secondary { border-color:rgba(217,164,65,.5); color:#f1f3f5; }
+.hero-image-frame { display:block; aspect-ratio:1.7778; width:100%; max-width:none; background:#03152b; border:1px solid rgba(217,164,65,.5); box-shadow:0 22px 65px rgba(0,0,0,.35); }
+.hero-campus-image { display:block; width:100%; height:100%; object-fit:cover; }
+.hero-image-frame .portrait-index { z-index:1; left:16px; bottom:13px; padding:5px 8px; background:rgba(3,18,34,.78); color:#f0c36c; font-size:8px; }
+.hero-aside { max-width:560px; }
+.hero-note p { color:#b2bfcc; }
+.note-label,.hero-bottom { color:#9eafbf; }
+.hero-bottom { border-color:var(--line); }
+.intro-section,.education-section { background:#0a1e33; }
+.lead-copy { color:#f0f2f4; }
+.intro-body > p:not(.lead-copy) { color:#aebdcb; }
+.fact-value { color:#f0c36c; }
+.fact-label { color:#9eafbf; }
+.research-section,.skills-section { background:#0d243b; }
+.section-aside { color:#aebdcb; }
+.research-list,.research-item,.research-note,.skills-grid { border-color:rgba(169,190,209,.2); }
+.research-item h3 { color:#e9edf1; }
+.research-arrow,.mono-index { color:#d7aa58; }
+.research-note p { color:#b0bdca; }
+.projects-section { background:#07182b; }
+.project-card { background:#0b2036; border-color:rgba(169,190,209,.22); }
+.project-card-top { border-bottom:1px solid rgba(169,190,209,.14); }
+.project-category { color:#9eafbf; }
+.project-visual { background:#03152b; }
+.project-card-content h3 { color:#f0f2f4; }
+.project-card-content > p { color:#afbdca; }
+.tag-list span { background:#132d46; color:#e4c17d; border:1px solid rgba(217,164,65,.18); }
+.project-link,.project-status { color:#f0c36c; }
+.project-link { border-color:#d9a441; }
+.timeline { border-color:rgba(169,190,209,.2); }
+.timeline-item { border-color:rgba(169,190,209,.2); }
+.timeline-item h3,.timeline-programme { color:#edf0f3; }
+.timeline-location { color:#e4b45d; }
+.timeline-detail,.timeline-period { color:#aebdcb; }
+.skill-group h3 { color:#e4b45d; }
+.skill-items span { border-color:rgba(169,190,209,.24); color:#d9e0e7; }
+.contact-section { background:#030f1e; border-top:1px solid rgba(217,164,65,.3); }
+.contact-inner .eyebrow { color:#e4b45d; }
+.contact-inner h2 em { color:#e4b45d; }
+.contact-inner > p:not(.eyebrow) { color:#b2bfcc; }
+.button-light { background:#d9a441; color:#07182b; }
+.button-light:hover { background:#f0c36c; }
+.contact-secondary { color:#e8edf2; border-color:rgba(217,164,65,.45); }
+.site-footer { background:#020b15; color:#93a3b3; border-top:1px solid rgba(169,190,209,.14); }
+.footer-inner a { color:#e4b45d; }
+.back-to-top { background:#d9a441; color:#07182b; border-color:#f0c36c; }
+.back-to-top:hover { background:#f0c36c; }
+@media (max-width: 900px) {
+ .hero-grid { grid-template-columns:1fr; gap:48px; }
+ .hero-aside { justify-self:start; max-width:620px; }
+ .hero-image-frame { aspect-ratio:16/9; }
+}
+@media (max-width: 640px) {
+ .primary-nav { background:#07182b; border:1px solid rgba(217,164,65,.25); }
+ .project-card { background:#0b2036; }
+}
