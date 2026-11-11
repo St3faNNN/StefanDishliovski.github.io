@@ -81,7 +81,7 @@
                     be measured, and how reliably they can be steered.
                 </p>
                 <div class="about-facts">
-                    <div><span class="fact-value">FINKI</span><span class="fact-label">HOME UNIVERSITY</span></div>
+                    <div><span class="fact-value">Ss. Cyril and Methodius University</span><span class="fact-label">HOME UNIVERSITY</span></div>
                     <div><span class="fact-value">TU Wien</span><span class="fact-label">EXCHANGE EXPERIENCE</span></div>
                     <div><span class="fact-value">AI / ML</span><span class="fact-label">PRIMARY FOCUS</span></div>
                 </div>
@@ -132,13 +132,8 @@
                             <span class="mono-index">{{ $project['number'] }}</span>
                             <span class="project-category">{{ $project['category'] }}</span>
                         </div>
-                        <div class="project-visual project-visual-{{ $loop->index + 1 }}" aria-hidden="true">
-                            <span class="visual-number">{{ $project['number'] }}</span>
-                            <span class="visual-line visual-line-one"></span>
-                            <span class="visual-line visual-line-two"></span>
-                            <span class="visual-node visual-node-one"></span>
-                            <span class="visual-node visual-node-two"></span>
-                            <span class="visual-node visual-node-three"></span>
+                        <div class="project-visual project-visual-{{ $loop->index + 1 }}">
+                            <img src="{{ asset('images/' . $project['image']) }}" alt="{{ $project['image_alt'] }}" loading="lazy">
                         </div>
                         <div class="project-card-content">
                             <h3>{{ $project['name'] }}</h3>
