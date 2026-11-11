@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600"><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101a2d"/><stop offset="1" stop-color="#26354c"/></linearGradient></defs><rect width="1000" height="600" fill="url(#bg)"/><g fill="none" stroke="#d6b46a" stroke-width="8" opacity=".9"><path d="M170 220h660M220 220l-55 220m120-220 30 220m310-220-30 220m120-220 55 220M140 440h720M180 195l320-110 320 110z"/><path d="M420 440V300q0-80 80-80t80 80v140"/></g><g fill="#0c213a" stroke="#77b6dc" stroke-width="3"><rect x="375" y="285" width="250" height="155" rx="12"/><path d="M410 330h180M410 365h145M410 400h165"/></g><g fill="#f2d48b" font-family="Arial" letter-spacing="7"><text x="65" y="75" font-size="22">LEGAL GRAPH RAG</text><text x="65" y="550" font-size="18" opacity=".8">STATUTES · CITATIONS · QUESTION ANSWERING</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520">
+<rect width="1000" height="520" fill="#0b1d30"/>
+<g fill="none" stroke="#c7a86e" stroke-width="2"><path d="M210 128H540M210 190H475M210 252H510M210 314H430"/><path d="M210 128V314M540 128V314" opacity=".35"/></g>
+<g fill="#102b43" stroke="#82b7d0" stroke-width="2"><rect x="145" y="94" width="440" height="270" rx="5"/><rect x="185" y="135" width="440" height="270" rx="5"/><rect x="225" y="176" width="440" height="270" rx="5"/></g>
+<g stroke="#d9bd86" stroke-width="3" fill="none"><path d="M275 235H600M275 280H565M275 325H590M275 370H520"/><path d="M685 225L770 225L770 310L850 310M665 340L770 340L770 310"/></g>
+<g fill="#d9bd86"><circle cx="770" cy="225" r="7"/><circle cx="770" cy="310" r="7"/><circle cx="850" cy="310" r="7"/></g>
+<g fill="#e9d3a8" font-family="Arial,sans-serif"><text x="62" y="68" font-size="17" letter-spacing="4">03 / LEGAL KNOWLEDGE SYSTEMS</text><text x="62" y="474" font-size="13" letter-spacing="3" opacity=".75">STATUTORY PROVISIONS  ·  CROSS-REFERENCES  ·  SOURCE-GROUNDED ANSWERS</text></g>
+</svg>
