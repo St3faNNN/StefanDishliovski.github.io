@@ -1,8 +1,8 @@
 <?php
 
-namespace App\\Http\\Controllers;
+namespace App\Http\Controllers;
 
-use Illuminate\\View\\View;
+use Illuminate\View\View;
 
 class PortfolioController extends Controller
 {
@@ -17,7 +17,6 @@ class PortfolioController extends Controller
                 'stack' => ['PyTorch', 'MediaPipe', 'CNNs', 'Grad-CAM'],
                 'url' => 'https://github.com/St3faNNN/MSLModel',
                 'link_label' => 'View repository',
-                'featured' => true,
             ],
             [
                 'number' => '02',
@@ -27,7 +26,6 @@ class PortfolioController extends Controller
                 'stack' => ['Python', 'Neo4j', 'NLP', 'RAG evaluation'],
                 'url' => 'https://github.com/St3faNNN/GraphRAG-JeopardyEvaluation',
                 'link_label' => 'View repository',
-                'featured' => true,
             ],
             [
                 'number' => '03',
@@ -37,7 +35,6 @@ class PortfolioController extends Controller
                 'stack' => ['Laravel', 'PHP', 'PostgreSQL', 'RAG'],
                 'url' => 'https://github.com/St3faNNN/graphrag-app',
                 'link_label' => 'View repository',
-                'featured' => true,
             ],
             [
                 'number' => '04',
@@ -47,7 +44,6 @@ class PortfolioController extends Controller
                 'stack' => ['LLMs', 'Representation analysis', 'Experimental design'],
                 'url' => null,
                 'link_label' => null,
-                'featured' => false,
             ],
         ];
 
